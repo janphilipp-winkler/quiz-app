@@ -6,7 +6,7 @@ body {
 
 header {
   position: fixed;
-  height: 4rem;
+  height: 3.5rem;
   width: 100vw;
   background-color: rgb(255, 85, 0);
   display: flex;
@@ -23,10 +23,11 @@ header > h1 {
 header > p {
   color: white;
   padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 main {
-  padding: 40px;
+  padding: 50px 20px 0 20px;
   display: flex;
   flex-direction: column;
 }
