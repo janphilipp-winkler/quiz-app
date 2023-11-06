@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  position: absolute;
+  position: fixed;
   height: 4rem;
   width: 100vw;
   background-color: rgb(255, 85, 0);
@@ -22,4 +22,62 @@ header > h1 {
 header > p {
   color: white;
   padding-left: 0.5rem;
+}
+
+main {
+  padding: 40px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.question-card {
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(239, 239, 239);
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+card > h2 {
+  color: rgb(21, 21, 21);
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: -10px;
+}
+
+.answer {
+  border: 0;
+  width: 200px;
+  height: 40px;
+  align-self: center;
+  color: white;
+  background-color: rgb(255, 85, 0);
+  border-radius: 8px;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  bottom: -20px;
+  left: -35px;
+}
+
+card > img {
+  width: 30px;
+  height: auto;
+  position: relative;
+  align-self: flex-end;
+  top: -30px;
+}
+
+card > p {
+  align-self: center;
+  margin-top: 30px;
+  display: none;
 }
