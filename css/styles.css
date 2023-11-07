@@ -6,8 +6,6 @@ body {
 
 header,
 nav {
-header,
-nav {
   position: fixed;
   height: 3.5rem;
   width: 100vw;
