@@ -4,7 +4,8 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-header {
+header,
+nav {
   position: fixed;
   height: 3.5rem;
   width: 100vw;
@@ -24,6 +25,24 @@ header > p {
   color: white;
   padding-left: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+nav {
+  bottom: 0;
+}
+
+nav > div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+nav > div > img {
+  width: 30px;
+  height: 30px;
+  filter: invert(100%);
 }
 
 main {
