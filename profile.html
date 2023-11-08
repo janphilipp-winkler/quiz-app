@@ -12,7 +12,7 @@
       <p>v1</p>
     </header>
     <nav>
-      <a href="index.html" class="nav-element selected">
+      <a href="index.html" class="nav-element">
         <div>
           <img class="icon" src="assets/home.png" alt="home icon" /></div
       ></a>
@@ -24,13 +24,33 @@
             alt="bookmark icon"
           /></div
       ></a>
-      <a href="profile.html" class="nav-element">
+      <a href="profile.html" class="nav-element selected">
         <div class="nav-element">
           <img class="icon" src="assets/profile.png" alt="profile icon" /></div
       ></a>
     </nav>
     <main>
-      <card class="question-card">
+      <div class="profile-section">
+        <div>
+          <img src="assets/person.jpg" alt="image of user" />
+          <h2>Jan-Philipp</h2>
+        </div>
+        <h3>About me</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et
+        </p>
+        <div class="questions-counter">
+          <img src="assets/question.png" alt="question icon" />
+          <p>14</p>
+        </div>
+        <div class="bookmarks-counter">
+          <img src="assets/bookmark.png" alt="bookmark icon" />
+          <p>8</p>
+        </div>
+      </div>
+      <!-- <card class="question-card">
         <img class="selected" src="assets/bookmark.png" alt="bookmark icon" />
         <h2>What property flips the axis in flexbox?</h2>
         <button class="answer">Show answer</button>
@@ -80,7 +100,7 @@
             <button class="tag">#css</button>
           </li>
         </ul>
-      </card>
+      </card> -->
     </main>
   </body>
 </html>
