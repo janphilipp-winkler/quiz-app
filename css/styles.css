@@ -36,7 +36,11 @@ nav > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 0 40px 0 40px;
+}
+
+#nav-home {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 nav > div > img {
