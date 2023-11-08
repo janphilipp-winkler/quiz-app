@@ -46,7 +46,7 @@ nav > div > img {
 }
 
 main {
-  padding: 50px 20px 0 20px;
+  padding: 50px 20px 100px 20px;
   display: flex;
   flex-direction: column;
 }
