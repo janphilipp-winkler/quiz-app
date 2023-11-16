@@ -48,9 +48,8 @@
 }
 
 .counters > * {
-  padding: 10px;
-  color: white;
-  background-color: black;
+  padding: 10px 16px 10px 16px;
+  background-color: rgb(236, 236, 236);
   display: flex;
   gap: 10px;
   border-radius: 10px;
@@ -58,5 +57,4 @@
 
 .counters > * > img {
   width: 20px;
-  filter: invert(100%);
 }
