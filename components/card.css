@@ -46,7 +46,7 @@ card > h2 {
   border-radius: 10px;
 }
 
-.question-card img {
+.bookmark-icon {
   width: 30px;
   height: auto;
   position: relative;
@@ -55,7 +55,11 @@ card > h2 {
   filter: invert(70%);
 }
 
-card > img.selected {
+/* card > a > .selected {
+  filter: invert(0%);
+} */
+
+.bookmark-icon-checked {
   filter: invert(0%);
 }
 
