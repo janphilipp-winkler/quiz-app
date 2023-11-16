@@ -1,9 +1,18 @@
 :root {
+  --color-white: rgb(255, 255, 255);
   --color-orange: rgb(255, 85, 0);
   --color-grey: rgb(239, 239, 239);
-  --text-color-dark: rgb(21, 21, 21);
+  --color-dark: rgb(21, 21, 21);
   --border-radius: 8px;
 }
+
+/* .dark-mode {
+  background-color: black;
+  --color-white: rgb(21, 21, 21);
+  --color-orange: rgb(135, 49, 6);
+  --color-grey: rgb(26, 26, 26);
+  --color-dark: rgb(255, 255, 255);
+} */
 
 *,
 *::before,
@@ -29,7 +38,7 @@ nav {
   position: fixed;
   height: 3.5rem;
   width: 100vw;
-  background-color: rgb(255, 85, 0);
+  background-color: var(--color-orange);
   display: flex;
   justify-content: center;
   align-items: center;

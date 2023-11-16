@@ -13,6 +13,7 @@
   align-self: center;
   align-items: center;
   gap: 10px;
+  color: var(--color-dark);
 }
 
 .user-top > img {
@@ -27,12 +28,13 @@
   align-self: center;
   align-items: center;
   gap: 10px;
-  background-color: rgb(236, 236, 236);
+  background-color: var(--color-grey);
   padding: 18px;
   border-radius: 10px;
 }
 
-.user-about > h3 {
+.user-about > * {
+  color: var(--color-dark);
   align-self: flex-start;
 }
 
@@ -42,27 +44,35 @@
   border-radius: 50%;
 }
 
-.counters {
+.counter-section {
   display: flex;
   gap: 20px;
 }
 
-.counters > * {
+.counter {
   padding: 10px 16px 10px 16px;
-  background-color: rgb(236, 236, 236);
+  background-color: var(--color-grey);
   display: flex;
   gap: 10px;
   border-radius: 10px;
 }
 
-.counters > * > img {
+.counter > * {
+  color: var(--color-dark);
+}
+
+.counter > img {
   width: 20px;
 }
 
-.dark-mode {
+.dark-mode-toggle {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+.dark-mode-toggle > p {
+  color: var(--color-dark);
 }
 
 .toggle-button {
@@ -83,13 +93,12 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(236, 236, 236);
+  background-color: var(--color-grey);
   transition: 0.2s;
   border-radius: 30px;
 }
 .toggle-button .knob:before {
-  background-color: black;
-  color: #000000;
+  background-color: var(--color-dark);
   position: absolute;
   content: "";
   height: 18px;
@@ -103,12 +112,11 @@
   justify-content: center;
 }
 .toggle-button input:checked + .knob {
-  background-color: #212121;
+  background-color: var(--color-dark);
 }
 
 .toggle-button input:checked + .knob:before {
-  color: #000000;
   content: "";
-  background-color: white;
+  background-color: var(--color-white);
   transform: translateX(28px);
 }
