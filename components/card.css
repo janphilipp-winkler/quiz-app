@@ -64,6 +64,10 @@ card > h2 {
   filter: invert(0%);
 }
 
-card > p {
-  /* display: none; */
+/* .answer-text {
+  display: none;
+} */
+
+.hidden {
+  display: none;
 }
