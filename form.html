@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="dark-mode">
+    <header>
+      <h1>quiz app</h1>
+      <p>v1</p>
+    </header>
+    <nav>
+      <a href="index.html" class="nav-element">
+        <div>
+          <img class="icon" src="assets/home.png" alt="home icon" /></div
+      ></a>
+      <a href="bookmarks.html" class="nav-element">
+        <div class="nav-element">
+          <img
+            class="icon"
+            src="assets/bookmark.png"
+            alt="bookmark icon"
+          /></div
+      ></a>
+      <a href="form.html" class="nav-element selected">
+        <div class="nav-element">
+          <img class="icon" src="assets/add.png" alt="bookmark icon" /></div
+      ></a>
+      <a href="profile.html" class="nav-element">
+        <div class="nav-element">
+          <img class="icon" src="assets/profile.png" alt="profile icon" /></div
+      ></a>
+    </nav>
+    <main data-js="main">
+      <form data-js="form">
+        <h2>Add new cards</h2>
+        <label for="yourQuestion">Your question:</label>
+        <textarea
+          type="text"
+          name="yourQuestion"
+          id="yourQuestion"
+          data-js="yourQuestion"
+          placeholder="Write your question here..."
+          maxlength="100"
+          required
+        ></textarea>
+        <small class="form__character-count"
+          >(<span data-js="amountLeftQuestion"></span> characters left)</small
+        >
+        <label for="yourAnswer">Your answer:</label>
+        <textarea
+          type="text"
+          name="yourAnswer"
+          id="yourAnswer"
+          data-js="yourAnswer"
+          placeholder="Write your answer here..."
+          maxlength="100"
+          required
+        ></textarea>
+        <small class="form__character-count"
+          >(<span data-js="amountLeftAnswer"></span> characters left)</small
+        >
+        <label for="tags">Tags:</label>
+        <input
+          type="text"
+          name="tags"
+          id="tags"
+          data-js="tags"
+          placeholder="Write tags here..."
+          maxlength="30"
+          required
+        />
+        <small class="form__character-count"
+          >(<span data-js="amountLeftTags"></span> characters left)</small
+        >
+        <button type="submit" data-js="submitButton">Create new card</button>
+      </form>
+    </main>
+    <script src="/js/form.js"></script>
+  </body>
+</html>
